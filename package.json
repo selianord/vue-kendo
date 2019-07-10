@@ -11,10 +11,13 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "@progress/kendo-buttons-vue-wrapper": "^2019.2.621",
     "@progress/kendo-dateinputs-vue-wrapper": "^2019.2.621",
     "@progress/kendo-theme-default": "^4.0.0",
     "@progress/kendo-ui": "^2019.2.710",
-    "vue": "^2.5.2"
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.26",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",

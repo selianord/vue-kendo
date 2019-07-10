@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
+      <span>SELIANORD</span>
     </header>
     <main>
       <hello></hello>
