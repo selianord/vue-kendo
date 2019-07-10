@@ -6,6 +6,7 @@
     <main>
       <headerPartial />
       <hello></hello>
+      <kendo-button class="button" icon="arrow-right" @click="position++">Get to know us ...</kendo-button>
     </main>
     <footerPartial />
   </div>
@@ -15,13 +16,15 @@
 import Hello from './components/Hello'
 import headerPartial from './components/headerPartial'
 import footerPartial from './components/footerPartial'
+import { Button } from '@progress/kendo-buttons-vue-wrapper'
 
 export default {
   name: 'app',
   components: {
     Hello,
     headerPartial,
-    footerPartial
+    footerPartial,
+    Button
   }
 }
 </script>

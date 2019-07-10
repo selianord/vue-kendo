@@ -6,7 +6,14 @@
                   <kendo-calendar :value="new Date()"></kendo-calendar>
               </b-col>
               <b-col cols="4">
-                  <h3>Your details</h3>
+                  <h3>Live chart with us</h3>
+                  <kendo-chat ref="chat"
+                      v-on:post="onPost"
+                      v-on:sendmessage="onSendMessage"
+                      v-on:actionclick="onActionClick"
+                      v-on:typingstart="onTypingStart"
+                      v-on:typingend="onTypingEnd">
+                </kendo-chat>
               </b-col>
               <b-col cols="4">
                   <h3>What to do</h3>
