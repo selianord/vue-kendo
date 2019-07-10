@@ -8,6 +8,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '@progress/kendo-ui'
 import '@progress/kendo-theme-default/dist/all.css'
 import { Calendar } from '@progress/kendo-dateinputs-vue-wrapper'
+import headerPartial from './components/headerPartial'
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
@@ -18,6 +19,7 @@ new Vue({
   template: '<App/>',
   components: {
     App,
-    Calendar
+    Calendar,
+    headerPartial
   }
 })

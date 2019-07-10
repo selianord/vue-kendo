@@ -4,18 +4,24 @@
       <span>SELIANORD</span>
     </header>
     <main>
+      <headerPartial />
       <hello></hello>
     </main>
+    <footerPartial />
   </div>
 </template>
 
 <script>
 import Hello from './components/Hello'
+import headerPartial from './components/headerPartial'
+import footerPartial from './components/footerPartial'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Hello,
+    headerPartial,
+    footerPartial
   }
 }
 </script>
